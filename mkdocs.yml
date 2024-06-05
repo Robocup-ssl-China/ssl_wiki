@@ -1,0 +1,61 @@
+site_name: SSL's Wiki - 小型组知识库
+repo_url: https://github.com/Turing-zero/TBK
+theme:
+  name: material
+  include_homepage_in_nav: true
+  locale: en
+  features:
+    - content.code.copy
+  font:
+    text: Roboto
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      accent: light-indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+nav:
+  - 0_index.md
+  - 介绍:
+    - 1_about/ssl.md
+    - 1_about/rules.md
+    - 1_about/goals.md
+    - 1_about/howto.md
+  - 相关资料:
+    - 1_about/rules.md
+    - 2_resources/events.md
+    - 2_resources/softwares.md
+    - 2_resources/opensources.md
+    - 2_resources/papers.md
+    - 2_resources/tdps.md
+    - 2_resources/gamelogs.md
+    - 2_resources/tournament_organization.md
+  - RoboCup ChinaOpen 2025:
+    - 0_match/chinaopen/2025/index.md
+  - ZJRoboCon 2025:
+    - 0_match/zjrobocon/2025/index.md
+  - 赛事历史:
+    - p0_match/index.md
+    - p1_history/
+  - p2_contact.md
