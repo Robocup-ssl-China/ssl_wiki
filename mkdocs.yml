@@ -1,7 +1,7 @@
 site_name: SSL's Wiki - 小型组知识库
 repo_url: https://github.com/Turing-zero/TBK
 theme:
-  name: mkdocs-material
+  name: material
   analytics:
     gtag: G-2SNR2EGH8N
   include_homepage_in_nav: true
