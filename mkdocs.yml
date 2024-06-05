@@ -56,6 +56,7 @@ nav:
   - ZJRoboCon 2025:
     - 0_match/zjrobocon/2025/index.md
   - 赛事历史:
-    - p0_match/index.md
-    - p1_history/
+    - 0_match/archive.md
+    - p1_history/hall_of_fame.md
+    - p1_history/tcs.md
   - p2_contact.md
