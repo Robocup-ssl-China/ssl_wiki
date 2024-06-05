@@ -1,7 +1,7 @@
 site_name: SSL's Wiki - 小型组知识库
 repo_url: https://github.com/Turing-zero/TBK
 theme:
-  name: material
+  name: mkdocs
   include_homepage_in_nav: true
   locale: en
   features:
@@ -51,10 +51,11 @@ nav:
     - 2_resources/tdps.md
     - 2_resources/gamelogs.md
     - 2_resources/tournament_organization.md
-  - RoboCup ChinaOpen 2025:
-    - 0_match/chinaopen/2025/index.md
-  - ZJRoboCon 2025:
-    - 0_match/zjrobocon/2025/index.md
+  - 赛事:
+    - RCChinaOpen 2025:
+      - 0_match/chinaopen/2025/index.md
+    - ZJRoboCon 2025:
+      - 0_match/zjrobocon/2025/index.md
   - 赛事历史:
     - 0_match/archive.md
     - p1_history/hall_of_fame.md
